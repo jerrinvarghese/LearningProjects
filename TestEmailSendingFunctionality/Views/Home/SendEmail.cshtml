@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "SendEmail";
+}
+
+<h2>SendEmail</h2>
+
+<script>
+    var SendEmail = function () {
+        $.ajax({
+            type: "Post",
+            data: { emailContent: 'testing'},
+            url: "Home/SendEmailToUser",
+            success: function (data) {
+                alert("Success");
+            }
+               
+        })
+    }
+        </script>
+<a class="btn btn-danger" onclick="SendEmail()">Click To Send Email</a>
+<input type="button" class="btn btn-danger" value="Check Log4net error logging" onclick="location.href='@Url.Action("CheckingLog4Net", "Home")'" />
+
+
