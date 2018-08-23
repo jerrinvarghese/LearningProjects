@@ -1,0 +1,8 @@
+2018-08-22 14:43:43,177[absolute] [8] ERROR System.DivideByZeroException: Attempted to divide by zero.
+   at TestEmailSendingFunctionality.Controllers.HomeController.CheckingLog4Net() in E:\Jerrin - Docs\Sample Projects\TestEmailSendingFunctionality\TestEmailSendingFunctionality\Controllers\HomeController.cs:line 66
+2018-08-22 14:45:12,529[absolute] [8] ERROR System.DivideByZeroException: Attempted to divide by zero.
+   at TestEmailSendingFunctionality.Controllers.HomeController.CheckingLog4Net() in E:\Jerrin - Docs\Sample Projects\TestEmailSendingFunctionality\TestEmailSendingFunctionality\Controllers\HomeController.cs:line 66
+2018-08-22 15:06:09,090[absolute] [9] ERROR System.DivideByZeroException: Attempted to divide by zero.
+   at TestEmailSendingFunctionality.Controllers.HomeController.CheckingLog4Net() in E:\Jerrin - Docs\Sample Projects\TestEmailSendingFunctionality\TestEmailSendingFunctionality\Controllers\HomeController.cs:line 66
+2018-08-22 15:08:18,593[absolute] [10] ERROR System.DivideByZeroException: Attempted to divide by zero.
+   at TestEmailSendingFunctionality.Controllers.HomeController.CheckingLog4Net() in E:\Jerrin - Docs\Sample Projects\TestEmailSendingFunctionality\TestEmailSendingFunctionality\Controllers\HomeController.cs:line 66
